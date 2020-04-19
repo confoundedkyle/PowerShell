@@ -7,7 +7,8 @@ get-verb -verb set | more
 # shows detail on a verb easier to read
 get-verb -verb set | Format-List
 
-# shows detail on verbs by group
+# shows detail on verbs by group 'in this example' "Security"
 Get-Verb -Group Security| Format-List
 
-Start-Process https://aka/ms/psverbs    
+# shows approved PowerShell commands
+Start-Process https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7    
