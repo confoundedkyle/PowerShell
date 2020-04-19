@@ -6,3 +6,6 @@ Get-Alias | more
 
 # shows aliases dealing with services
 get-alias -Definition *service*
+
+# shows inputs for get-service using it's alias
+help gsv
